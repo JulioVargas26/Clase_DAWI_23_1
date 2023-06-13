@@ -1,5 +1,6 @@
 package net.clinica.entity;
 
+import java.sql.Date;
 import java.time.LocalDate;
 import java.util.List;
 
@@ -30,8 +31,10 @@ public class Medicamento {
 	private int stock;
 	@Column(name = "pre_med")
 	private double precio;	
+	
+	
 	@Column(name = "fec_fab_med")
-	private LocalDate fecha;
+	private Date fecha;
 	
 	//bi-direccional
 	//MUCHOS A UNO
@@ -84,11 +87,11 @@ public class Medicamento {
 		this.precio = precio;
 	}
 
-	public LocalDate getFecha() {
+	public Date getFecha() {
 		return fecha;
 	}
 
-	public void setFecha(LocalDate fecha) {
+	public void setFecha(Date fecha) {
 		this.fecha = fecha;
 	}
 
