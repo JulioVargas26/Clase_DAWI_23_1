@@ -91,47 +91,54 @@
 		</band>
 	</columnHeader>
 	<detail>
-		<band height="125" splitType="Stretch">
+		<band height="50" splitType="Stretch">
 			<textField>
 				<reportElement x="0" y="20" width="100" height="30" uuid="ac67b88f-34e5-4c7f-982e-874b176e95c4">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f0e136ad-824a-486f-b0aa-5d6058c87bf6"/>
 				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$F{codigo}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="70" y="20" width="100" height="30" uuid="2d1fe833-0747-45f2-a65f-72219a14921d">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f3647fe8-8f77-41c3-8d76-e254a6f0448f"/>
 				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="150" y="20" width="100" height="30" uuid="aad9862d-2cce-410d-b513-810b955b4db7">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b978d438-4634-481b-b243-9d6b21b73121"/>
 				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$F{precio}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="230" y="20" width="100" height="30" uuid="f747eccc-a604-42e0-817e-54f1edc2c1ac">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4f0b01ac-948d-4445-a082-894c80175eb4"/>
 				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$F{stock}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="380" y="20" width="100" height="30" uuid="b166fa12-a16c-4125-921e-327e951c208c">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="68de8633-facf-4edc-b3a4-88db77e017e7"/>
 				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$F{tipo.laboratorio.nombre}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="300" y="20" width="100" height="30" uuid="946bf749-4ab9-44f1-80e2-fdf0e6924dd4">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e3abd244-e4fc-4c43-9ffd-d667299670a0"/>
 				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$F{tipo.nombre}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="470" y="20" width="100" height="30" uuid="98a2859e-e380-4e3b-91fd-2d6f87f9eed7">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e53d6947-b1fd-4ccb-84f5-cb7bf09b6e18"/>
 				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$F{fecha}]]></textFieldExpression>
 			</textField>
 		</band>
